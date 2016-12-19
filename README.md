@@ -40,8 +40,6 @@ Here you should find the config file for gmp: "ext-gmp.ini". Copy the content. C
 ```
 [gmp]
 extension="/usr/local/opt/php56-gmp/gmp.so"
-
-extension=gmp.so
 ```
 
 Paste the snippet above in both the php.ini template (apache) and the real php.ini (cli). MAMP replaces parts of the real php.ini with the template accessible from the MAMP application. Look for this part:
